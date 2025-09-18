@@ -132,7 +132,7 @@ if check25 :
 # Lanjutkan untuk checkbox lainnya
 
 # Membaca model yang telah di-train
-with open('RF-Baru.pkl', 'rb') as f:
+with open('RF.pkl', 'rb') as f:
     model = pickle.load(f)
 
 # Membuat DataFrame dari input data
@@ -163,3 +163,4 @@ if st.button('Predict'):
         st.write('Hasil diagnosa adalah Endometritis')
     elif prediction == 'Thelaziasis':
         st.write('Hasil diagnosa adalah Thelaziasis')
+
