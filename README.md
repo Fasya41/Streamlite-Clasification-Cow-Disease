@@ -9,7 +9,7 @@ Features
 
 📊 Instant diagnosis results displayed on the web app
 
-📂 Diseases are classified based on the dataset stored in the file “data penyakit”
+📂 Diseases are classified based on the dataset stored in the file “Data_Penyakit.csv”
 
 🐮 Supports multiple cattle diseases such as:
 
